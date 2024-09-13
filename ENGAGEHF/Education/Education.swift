@@ -25,7 +25,7 @@ struct Education: View {
                     ContentUnavailableView(
                         "No Educational Videos",
                         systemImage: "video.slash",
-                        description: Text("There are currently no educational videos available!")
+                        description: Text("There are currently no educational videos available")
                     )
                 } else {
                     VideoList(videoCollections: videoManager.videoCollections.filter { !$0.videos.isEmpty })
