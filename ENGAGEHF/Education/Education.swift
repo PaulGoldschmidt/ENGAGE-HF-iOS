@@ -23,7 +23,7 @@ struct Education: View {
             Group {
                 if videoManager.videoCollections.isEmpty {
                     ContentUnavailableView(
-                        "No Educational Videos",
+                        "No Educational Videos!",
                         systemImage: "video.slash",
                         description: Text("There are currently no educational videos available.")
                     )
